@@ -1,0 +1,87 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 21, 2015, 7:21:55 PM
+    Author     : Ryan Harrington
+*/
+
+
+body{
+    line-height: 1em;
+    display:block;
+    font-family: sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+p{
+    margin:.4em;
+}
+
+header{
+    text-align: center;
+}
+.break{
+    display:none;
+}
+.datebox{
+    width:100%;
+    display: flex;
+}
+
+.predate{
+    width: 40%;
+    margin-left: .7em;    
+}
+
+.date{
+    margin:0;
+    width:60%;
+    text-align: right;
+}
+
+.GPA{
+    margin-left: .7em;
+}
+
+ul {
+    margin-top: 0px;
+}
+
+.Internships div:nth-child(4), 
+.Internships ul:last-child{
+    color:red;
+}
+
+.involvement div:nth-child(4), 
+.involvement ul:last-child{
+    color:red;
+}
+
+@media screen and (max-width:500px){
+    body{
+        font-size: 90%;
+    }
+    .break{
+        display:block;
+    }
+    .datebox{
+        display: block;
+    }
+    .date{
+        width:100%;
+        text-align: left;
+        margin-left:.7em;
+    }
+    .predate{
+        width:100%;
+    }
+    .gone{
+        display:none;
+    }
+}
