@@ -1,0 +1,79 @@
+
+/*
+* Copyright 10/20/2015 Ryan Harrington and Zack Layne
+*/
+
+body{
+    width:70%;
+    margin: 0 auto;  
+    border: .25em solid blue;
+}
+p{
+    margin-left: 1.5em;
+}
+
+h1{
+    color: blue;
+    margin: 1.5em;
+}
+footer{
+    border-top: .25em solid blue;
+    padding-top: 1.5em;
+    margin-bottom: 1.5em;
+    text-indent: 3em;
+}
+section{
+    display: flex;
+    text-align: right;
+    width: 90%;
+    margin-left: 1.5em;
+    margin-bottom: 1.5em;
+    flex-wrap: wrap;
+}
+
+.letterDiv{
+    text-align: right;
+    margin-bottom: .25em;
+    width: 50%;
+}
+.numDiv{
+    margin-bottom: .25em;
+    text-align: left;
+    width: 30%;
+}
+label{
+    width:2em;
+}
+input{
+    width: 10em;
+}
+
+form{
+    width:90%;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+@media screen and (max-width: 400px){
+
+    form{
+        display:block;
+    }
+    .letterDiv{
+        margin-left: .5em;
+        text-align: left;
+        width:100%;
+    }
+    input{
+        margin-left: .5em;
+    }
+    .numdiv{
+
+        width:100%;
+    }
+    section{
+        display: block;
+    }
+}
+
+
